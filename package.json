@@ -1,0 +1,17 @@
+{
+  "name": "@michigandaily/rollup-plugin-dsv",
+  "version": "1.0.0",
+  "description": "Rollup (and Vite) DSV transformer",
+  "type": "module",
+  "main": "src/index.js",
+  "keywords": [
+    "rollup-plugin",
+    "vite-plugin"
+  ],
+  "author": "Eric Lau",
+  "license": "MIT",
+  "dependencies": {
+    "@rollup/pluginutils": "^5.0.2",
+    "d3-dsv": "^3.0.1"
+  }
+}
