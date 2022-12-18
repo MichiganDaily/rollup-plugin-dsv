@@ -61,6 +61,8 @@ By default, this transformer will use [`d3.autoType`](https://github.com/d3/d3-d
 import data from "../data.csv?autoType=false"
 ```
 
+When typing, dates will not be converted to Date objects, they will remain as a string.
+
 If you want to only retrieve certain columns of values from a DSV, use the `columns` query paramter. The following import will only import the `a` and `b` columns from a CSV file:
 
 ```javascript
